@@ -132,6 +132,8 @@ export default function Home() {
         </p>
       </section>
 
+     <h1><marquee><b> &copy; Designed by Joel og </b></marquee></h1> 
+
       
 <button type="button" class="text-white bg-[#3b5998] hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 mb-2">
 <svg class="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">

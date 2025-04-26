@@ -51,6 +51,45 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mt-16 flex flex-col items-center justify-center text-center px-4">
+  <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
+  <form
+    action="https://formspree.io/f/your-form-id"
+    method="POST"
+    className="space-y-4 w-full max-w-md bg-white shadow-md rounded-lg p-6"
+  >
+    <input
+      type="text"
+      name="name"
+      placeholder="Your Name"
+      required
+      className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="Your Email"
+      required
+      className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <textarea
+      name="message"
+      placeholder="Your Message"
+      required
+      rows={5}
+      className="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+    <button
+      type="submit"
+      className="w-full bg-blue-600 text-white font-semibold px-6 py-2 rounded hover:bg-blue-700 transition"
+    >
+      Send Message
+    </button>
+  </form>
+</section>
+
+
+
       {/* Contact Section */}
       <section id="contact" className="min-h-screen bg-white px-6 py-16">
         <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-6">Contact</h2>
